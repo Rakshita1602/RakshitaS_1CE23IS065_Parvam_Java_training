@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color:#1fb2d5;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            color: #d51f77;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form with Text and Email Input</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" nme="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" if="email" name="email" required /><br /><br />
+
+        <input type="sumit" value="submit" />
+    </form>
+    <h2>Select Gender</h2>
+    <form action="/submit" method="POST">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" /><br 
+        
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="male" /><br /><br
+
+        <input type="submit" values="submit">
+    </form>
+    <h2>Terms and Conditions</h2>
+    <form action="/submit" method="POST">
+     <label>
+        <input type="checkbox" name="terms" required /> I agree to the terms and conditions </label> /><br /><br 
+
+        <input type="submit" value="Submit" />
+    </form>
+    <h2>Select a Country</h2>
+    <form actions="/submit" method="POST">
+        <label for="country">Country:</label>
+        <select id="country"name="country">
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option></select ><br /><br />
+
+            <input type="submit" values="Submit" />
+    </form>
+     <h2>Login Form</h2>
+    <form actions="/submit" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" /><br /><br />
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" /><br /><br
+
+        <input type="submit" values="Login" />
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Form with Text and Email Input</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" nme="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" if="email" name="email" required /><br /><br />
+
+        <input type="sumit" value="submit" />
+    </form>
+    <h2>Select Gender</h2>
+    <form action="/submit" method="POST">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" /><br 
+        
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="male" /><br /><br
+
+        <input type="submit" values="submit">
+    </form>
+    <h2>Terms and Conditions</h2>
+    <form action="/submit" method="POST">
+     <label>
+        <input type="checkbox" name="terms" required /> I agree to the terms and conditions </label> /><br /><br 
+
+        <input type="submit" value="Submit" />
+</body>
+<h2>Phone number and Branch</h2>
+ <label for="branch">Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="" disabled selected>Select your Branch</option>
+                <option value="CSE">Cse</option>
+                <option value="ISE">Ise</option>
+                <option value="ECE">Ece</option>
+                <option value="AIML">Aiml</option>
+            </select>
+</form>
